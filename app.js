@@ -11,5 +11,13 @@ app.get('/', (req, res) => {
     if (req) {
         console.log("Chamou a requisição")
     }
-    res.render('index', {title: 'Index'})
+    res.render('index', {title: 'ToDo List'})
+})
+
+app.get('/sign-up.html', (req, res) => {
+    res.render('sign-up', {title: 'Cadastro'})
+})
+
+app.get('/main.html', (req, res) => {
+    res.render('main', {title: 'Bem Vindo'})
 })
