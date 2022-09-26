@@ -5,9 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do List</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main-style.css">
 </head>
 <body>
-    Página principal
+    <header class="top-header">
+        <img src="/assets/icon-pen.png" alt="logo" id="invert">
+        
+        <section class="search-section">
+            <img src="/assets/icon-search.png" alt="imagem busca" id="invert">
+            <input type="text" name="search" id="search-area" class="inputs search" placeholder="Procure aqui">
+        </section>
+
+        <section class="usable-icons">
+            <img src="/assets/icon-add.png" alt="add" id="invert">
+            <img src="/assets/icon-settings.png" alt="set" id="invert">
+        </section>
+    </header>
+
+    <div class="side-bar">
+        <p class="task-line">
+            <img src="/assets/task-bar/today-icon.png" name="hoje" alt="icone-hoje" class="icons">
+            <label for="hoje">Hoje</label>
+        </p>
+        <p class="task-line">
+            <img src="/assets/task-bar/tomorrow-icon.png" name="breve" alt="icone-breve" class="icons">
+            <label for="breve">Em breve</label>
+        </p>
+        <p class="task-line">
+            <img src="/assets/task-bar/seven-icon.png" name="sete-dias" alt="icone-sete" class="icons">
+            <label for="sete-dias">Próximos 7 dias</label>
+        </p>
+        <p class="task-line">
+            <img src="/assets/task-bar/all-icon.png" name="todas" alt="icone-todas" class="icons">
+            <label for="hoje">Todas as tarefas</label>
+        </p>
+    </div>
+
+    <main class="main-content">
+        <h1>Título</h1>
+        <div class="task-div">
+            <input type="checkbox" name="task-0" id="task-0" class="checkbox-round">
+            <label id="task-label-0" for="task-0">Titulo da tarefa 1</label>
+        </div>
+    </main>
+
 </body>
 </html>

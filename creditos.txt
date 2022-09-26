@@ -1,6 +1,34 @@
-ícone com a caneta
+Icone com a caneta
 <a href="https://www.flaticon.com/free-icons/list" title="list icons">List icons created by Freepik - Flaticon</a>
 
 
-ícone sem a caneta
+Icone sem a caneta
 <a href="https://www.flaticon.com/free-icons/exam" title="exam icons">Exam icons created by Freepik - Flaticon</a>
+
+
+Icone de pesquisa
+<a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Chanut - Flaticon</a>
+
+
+Icone de Adicionar
+<a href="https://www.flaticon.com/free-icons/plus" title="plus icons">Plus icons created by srip - Flaticon</a>
+
+
+Icone de Engrenagem
+<a href="https://www.flaticon.com/free-icons/setting" title="setting icons">Setting icons created by Phoenix Group - Flaticon</a>
+
+
+Icone de Today
+<a href="https://www.flaticon.com/free-icons/calendar" title="calendar icons">Calendar icons created by Pixel perfect - Flaticon</a>
+
+
+Icone de Tomorrow
+<a href="https://www.flaticon.com/free-icons/tomorrow" title="tomorrow icons">Tomorrow icons created by apien - Flaticon</a>
+
+
+Icone de 7 dias
+<a href="https://www.flaticon.com/free-icons/seven" title="seven icons">Seven icons created by Md Tanvirul Haque - Flaticon</a>
+
+
+Icone de Todos
+<a href="https://www.flaticon.com/free-icons/all" title="all icons">All icons created by Dreamstale - Flaticon</a>

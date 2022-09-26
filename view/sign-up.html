@@ -24,14 +24,16 @@
             <label for="pass2">Confirme sua senha</label>
             <input type="password" name="pass2" id="sign-pass2" class="inputs-form">
             <br>
-            <button class="btns forms">Confirmar</button>
+            <button class="btns forms" id="sign-button">Confirmar</button>
         </form>
 
-        <!--Isso será removido quando eu começar a fazer a parte do JS-->
-        <a href="index.html">
-            <button class="btns forms">Enquanto eu n resolvo</button>
-        </a>       
-
     </main>
+
+    <script>
+        document.getElementById("sign-button").onclick = function(){
+            location.href = "index.html"
+            event.preventDefault() 
+        }
+    </script>
 </body>
 </html>

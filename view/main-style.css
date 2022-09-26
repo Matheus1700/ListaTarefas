@@ -1,0 +1,143 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 14pt;
+    background-color: white;
+}
+
+input, textarea{ outline: none; }
+
+/* MAIN.html -- Header */
+header.top-header{  
+    height: 8vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(212, 57, 45);
+}
+
+header.top-header img{ 
+    margin-left: 0.8%;
+}
+
+img{
+    height: 4%;
+    margin-top: 1%;
+}
+
+section.search-section img{
+    margin-top: 3.2%;
+    height: 2%;
+}
+
+input.inputs{
+    border-radius: 2pt;
+}
+
+input.inputs.search{
+    position: absolute;
+    height: 4vh;
+    width: 30vw;
+    margin-top: 0.7%;
+    margin-left: 0.5%;
+    border-color: transparent;
+    color: white;
+    background-color: transparent;
+}
+
+input.inputs.search:focus{
+    transition: 0.2s;
+    border-color: transparent transparent white transparent;
+}
+
+input.inputs.search::placeholder{ color: white; }
+
+section.usable-icons{
+    margin-left: 85%;
+}
+
+section.usable-icons{
+    height: 60%;
+    margin-top: 2.5%;
+}
+
+section.usable-icons img{
+    cursor: pointer;
+}
+
+/* MAIN.html -- Barra lateral */
+div.side-bar{
+    position: absolute;
+    height: 100%;
+    width: 19vw;
+    padding: 0 1%;
+    font-size: 0.8rem;
+    background-color: rgb(236, 235, 235);
+}
+
+p.task-line{ height: 4vh; margin-left: 2%; }
+p.task-line:first-child {margin-top: 7%;}
+p.task-line label{ margin-left: 1%;}
+
+p.task-line:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    filter: invert(23%) sepia(69%) saturate(4280%) hue-rotate(352deg) brightness(93%) contrast(77%);
+}
+
+p.task-line label:hover{ cursor: pointer; }
+
+.icons{
+    object-fit: cover;
+    height: 70%;
+}
+
+main.main-content{
+    height: 100vh;
+    width: 71%;
+    margin-left: 22%;
+    padding: 1% 3%;
+    color: black;
+    background-color: white;
+}
+
+main.main-content h1{
+    font-size: 1.5rem;
+}
+
+div.task-div{
+    height: 3.5vh;
+    padding: 1%;
+    border-radius: 3pt;
+    border: 1.5px solid black;
+    border-color: transparent transparent rgb(168, 168, 168) transparent;
+}
+
+div.task-div:hover{
+    background-color: rgb(236, 235, 235);
+}
+
+input.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid rgb(212, 57, 45);
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+input.checkbox-round:checked {
+    background-color: rgb(236, 236, 236);
+    border-width: 2pt;
+}
+
+
+/* Filtros */
+#invert { filter: invert(100%); }
+
+#toRed { filter: invert(23%) sepia(69%) saturate(4280%) hue-rotate(352deg) brightness(93%) contrast(77%); }
