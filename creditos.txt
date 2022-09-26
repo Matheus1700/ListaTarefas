@@ -32,3 +32,10 @@ Icone de 7 dias
 
 Icone de Todos
 <a href="https://www.flaticon.com/free-icons/all" title="all icons">All icons created by Dreamstale - Flaticon</a>
+
+
+
+
+
+Mudanças feitas:
+Mudei a pasta de nome 'view' para 'views'
