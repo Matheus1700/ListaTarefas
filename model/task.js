@@ -1,3 +1,4 @@
+// falta resolver a treta do task.js
 const mongoose = require('mongoose')
 const schema = mongoose.Schema
 
@@ -20,7 +21,7 @@ const taskSchema = new schema ({
     },
     author: [{
         type: mongoose.Schema.Types.ObjectId, // referenciando o autor da task
-        ref: 'User'
+        ref: 'users'
     }]
 })
 
