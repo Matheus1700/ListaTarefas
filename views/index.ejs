@@ -16,21 +16,16 @@
         <form class="forms login">
             <h1>Login</h1>
             <label for="email">Email</label>
-            <input type="text" name="email" id="email" placeholder="fulano123@gmail.com" class="inputs-form">
+            <input type="text" name="email" id="login-email" placeholder="fulano123@gmail.com" class="inputs-form">
             <br>
             <label for="pass">Senha</label>
-            <input type="text" name="pass" id="pass" placeholder="Entre sua senha" class="inputs-form">
+            <input type="text" name="pass" id="login-pass" placeholder="Entre sua senha" class="inputs-form">
 
             <p id="forgot-pass">Esqueceu sua senha?</p>
             <button class="btns forms" id="login-button">Entrar</button>
         </form>
     </main>
 
-    <script>
-        document.getElementById("login-button").onclick = function(){
-            location.href = "main.html"
-            event.preventDefault() //Essa função funciona para prevenir que a página seja recarregada ao invés de seguir o href
-        }
-    </script>
+    <script src="js/index.js"></script>
 </body>
 </html>

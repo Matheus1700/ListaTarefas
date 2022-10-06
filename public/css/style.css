@@ -150,3 +150,9 @@ input.inputs-form{
 form.forms.sign-up button{
     margin-left: 35%;
 }
+
+@keyframes shake {
+    25% { transform: translateX(4px); }
+    50% { transform: translateX(-4px); }
+    75% { transform: translateX(4px); }
+}

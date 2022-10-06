@@ -9,11 +9,13 @@ const mongoose = require('mongoose')
 const userModel = require('./model/user')
 const taskModel = require('./model/task')
 
-
+/* AQUI CONECTA AO BANCO
 mongoose.connect(dbURL, { useNewUrlParser: true, useUnifiedTopology: true })
     .then((result) => { console.log('conexão bem sucedida'), app.listen(5500) })
     .catch((error) => { console.log(erro) })
+*/
 
+app.listen(5500)
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
 
